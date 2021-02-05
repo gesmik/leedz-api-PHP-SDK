@@ -1,0 +1,22 @@
+{
+  "name": "gesmik/leedz-api-PHP-SDK",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Gesmik",
+      "homepage": "https://github.com/gesmik/leedz-api-PHP-SDK/contributors"
+    }
+  ],
+  "require": {
+    "ext-curl": "*"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^5.7"
+  },
+  "autoload": {
+    "psr-4": {
+      "PayPalHttp\\": "lib/Leedz"
+    }
+  }
+}
